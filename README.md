@@ -10,6 +10,14 @@ Exploratory data analysis was conducted using various DataFrame methods, such as
 
 Advanced data visualization techniques were employed to uncover patterns, outliers, and correlations within the dataset. Box plots and heat maps (Figure 1) highlighted the variable distributions and their interrelationships. Kernel Density Estimation (KDE) plots (Figure 2) provided a comprehensive view of the probability density functions, further elucidating the data's underlying distributions. Furthermore, a pair plot (Figure 3) offered a multidimensional perspective, depicting scatter plots for variable pairs and histograms for individual variable distributions.
 
+https://github.com/vgopika999/Boston-housing-data/blob/main/boxplot.png
+
+https://github.com/vgopika999/Boston-housing-data/blob/main/heatmap.png
+
+https://github.com/vgopika999/Boston-housing-data/blob/main/kdeplot.png
+
+https://github.com/vgopika999/Boston-housing-data/blob/main/JuliusImage%20(2).png
+
 To ensure consistent feature scaling, data normalization was performed, if deemed necessary. Moreover, highly correlated features with the target variable were identified, allowing the model to focus on the most relevant predictors for accurate house price estimation.
 
 ## Model Implementation and Evaluation
@@ -19,7 +27,11 @@ Predictions were generated for the test data using the trained model, enabling a
 
 Additionally, the regression line was visualized using `np.polyfit()` (Figure 4), depicting the linear relationship between the number of rooms (RM) and the median house price (MEDV). This visualization allowed for a clear understanding of how the model's predictions aligned with the actual data points.
 
+https://github.com/vgopika999/Boston-housing-data/blob/main/JuliusImage%20(3).png
+
 Furthermore, a focused pair plot (Figure 5) was generated using Seaborn, concentrating on the relationships between RM, LSTAT (percentage of lower-status population), and MEDV. This multidimensional visualization facilitated the identification of patterns and potential outliers within the dataset.
+
+![Focused Pair Plot](image5.png)
 
 ## Results and Recommendations
 The report concludes by emphasizing the linear regression model's significant ability to predict median house prices based on the available features in the Boston housing dataset. The evaluation metrics and visualizations provided a comprehensive understanding of the model's performance and the intricate relationships between different variables.
